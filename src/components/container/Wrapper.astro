@@ -1,21 +1,73 @@
 ---
+import About from "../About.astro";
+import Ingredients from "../Ingredients.astro";
+import Preparation from "../Preparation.astro"
+
 
 ---
 <main>
+  
 <div class="wrapper">
-test
-
-
-</div
-
-
+  <img src="/main-image.png" alt="imagem de cupcakes com grão de café e chantily">
+  <section>
+    <About />
+  <Ingredients />
+  <Preparation />
+</section>
+</div>
+<footer>
+  <p>Feito com <img src="/heart.svg" alt=""> Rocketseat</p>
+  <p>Develop by <span><a target="_blank" href="https://www,ofs.dev.br">Emmanuel Oliveira | OFS</a></span></p>
+</footer>
 </main>
 
 <style>
-
+main {
+  max-width: 1280px;
+  height: 1588px;
+  width: 100%;
+  border-radius: 16px;
+  background-image: url(pagina.jpg);
+  background-size: cover;
+  margin-inline: auto;
+  padding-top: 48px;
+}
 .wrapper {
   width: 800px;
   background-color: var(--surface-color);
-  margin: 0 auto;
+  margin-inline:  auto;
+  border-radius: 24px;
 }
+img {
+    display: block;
+    width: 100%;
+    padding: 24px  24px 0 24px;
+    border-radius: 16px;   
+  }
+ section {
+  padding: 24px;
+}
+footer  {
+  text-align: center;
+  color: #F0E8C2;
+  padding-top: 28px;
+}
+footer p  img {
+  padding: 0;
+  width: 100%;
+  width: 12px;
+  display: inline-block;
+}
+a {
+  color: #F0E8C2;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
 </style>

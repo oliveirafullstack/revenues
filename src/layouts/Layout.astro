@@ -24,6 +24,7 @@ const { title } = Astro.props;
 	</body>
 </html>
 <style is:global>
+	
 	:root {
 		--bg-color: #573824;
 		--surface-color: #F0E8C2;
@@ -31,14 +32,34 @@ const { title } = Astro.props;
 		--text-color-secondary: "#573A37";
 		--text-color-on-bg:  #F0E8C2;  
 	}
-	html {
-		font-family: "Alice", serif;
-		color: var(--text-color-secondary);
-		}
-		
+	
 	* {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
+	}
+	
+	body {
+			margin-block: 48px;
+			font-family: "Alice", serif;
+			color: var(--text-color-secondary);
+	}
+		section + section {
+			margin-top: 24px;
+		}
+		section {
+			padding-inline: 24px;
+		}
+		h1 {
+			font-size: 40px;
+  	line-height: 1.4;
+  	color: #291B1A;
+		font-weight: 400;
+		}
+		h2 {
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 1.4;
+		margin-bottom: 4px;
 	}
 </style>

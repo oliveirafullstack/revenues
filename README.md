@@ -1,25 +1,26 @@
 <!-- Banner de Apresentação -->
- <img src="./src/assets/images/banner.png" alt="Banner OFS">
+ <img src="./src/assets/github/banner.png" alt="Banner OFS">
 <br>
 <br>
 
-<!-- Titulo do Projeto -->
+<!-- Apresentação do  Projeto -->
 <div align="center">
-<img alt="Astro" width="24" height="35" src="./src/assets/astro_dark.svg"/></br>
+<img alt="Astro" width="24" height="35" src="./src/assets/github/astro_dark.svg"/></br>
 
-![Static Badge](https://img.shields.io/badge/--path?style=flat&logo=astro&logoColor=%23FFF&logoSize=auto&label=Astro&color=e35607)<br>
+![Astro Badge](https://img.shields.io/badge/--path?style=flat&logo=astro&logoColor=%23FF5D01&logoSize=auto&label=Astro&labelColor=%23fff&color=%23FF5D01)
+![Node Badge](https://img.shields.io/badge/--path?style=flat&logo=node.js&logoColor=%23417E38&logoSize=auto&label=v20.16.0&labelColor=%23fff&color=%23417E38)</br>
 <small>Framework de desenvolvimento</small>
 
 <!-- Badges do Projeto -->
 
-![GitHub top language](https://img.shields.io/github/languages/top/oliveirafullstack/tech-news?style=plastic&labelColor=%23000)
-![GitHub language count](https://img.shields.io/github/languages/count/oliveirafullstack/tech-news?style=flat&logo=github&logoColor=%23fff&logoSize=auto&labelColor=%23000)
-![GitHub repo size](https://img.shields.io/github/repo-size/oliveirafullstack/tech-news?style=plastic&logo=github&logoColor=%23fff&logoSize=auto&labelColor=%23000)
-![GitHub forks](https://img.shields.io/github/forks/oliveirafullstack/tech-news?style=plastic&labelColor=%23000)
+![GitHub top language](https://img.shields.io/github/languages/top/oliveirafullstack/revenues?style=plastic&labelColor=%23000)
+![GitHub language count](https://img.shields.io/github/languages/count/oliveirafullstack/revenues?style=flat&logo=github&logoColor=%23fff&logoSize=auto&labelColor=%23000)
+![GitHub repo size](https://img.shields.io/github/repo-size/oliveirafullstack/revenues?style=plastic&logo=github&logoColor=%23fff&logoSize=auto&labelColor=%23000)
+![GitHub forks](https://img.shields.io/github/forks/oliveirafullstack/revenues?style=plastic&labelColor=%23000)
 
 </div>
 
-# 🗞️ Tech News | OFS
+# 🍩 Revenues | OFS
 
 <!-- Menu -->
 
@@ -44,22 +45,22 @@
 
 ## Project Description
 
-**Tech News** é uma landing-page onde são divulgados artigos relacionados a Tecnologia.<br>
-Projeto foi desenvolvido para a pratica de tecnologias, como `Astro`,`HTML`,`SASS`.<br>
+**Revenues** é uma landing-page de uma Receita de **Cupcake de café com Chantilly**.<br>
+Projeto foi desenvolvido para a pratica de tecnologias, como `Astro`,`HTML`,`CSS`.<br>
 Minha fonte de motivação deste projeto foi a [RocketSeat](https://www.rocketseat.com.br/).<br>
 
 `Task`
 
-- Desenvolver uma landing-page de notícias.
+- Desenvolver uma landing-page de Receitas.
 
 `Charlenge`
 
 Os Maiores desafios foram:<br>
-trabalhar com compressão de _Imagens_ dentro do `Astro` estilizando os elementos com `SASS`.
+trabalhar com o **framework** _AstroJs_.
 
 ### Functionalities
 
-- [x] **Landing-page de Notícias**
+- [x] **Landing-page de Receitas**
 
 > [!TIP]
 >
@@ -85,7 +86,7 @@ Requisitos necessários para rodar o projeto:<br>
 
 ### technologies and tools
 
-`Astro` `JavaScript` `HTML` `SASS` `Pnpm`
+`Astro` `JavaScript` `HTML` `CSS` `Pnpm`
 
 ## Instalation
 
@@ -100,7 +101,7 @@ Caso você não saiba como fazer, estou deixando um link para a documentação o
 <sub>Command Line</sub>
 
 ```bash
-git clone https://github.com/oliveirafullstack/tech-news
+git clone https://github.com/oliveirafullstack/revenues
 ```
 
 <img alt="Static Badge" src="https://img.shields.io/badge/-path?style=social&logo=git&label=GitHub%20Docs&color=%23000">
@@ -156,9 +157,7 @@ pnpm dev
 </br>
 </br>
 
-<img src="./src/assets/images/image-01.png" alt="Print do Projeto"/>
-<img src="./src/assets/images/image-02.png" alt="Print do Projeto"/>
-<img src="./src/assets/images/image-03.png" alt="Print do Projeto"/>
+<img src="./src/assets/github/image-01.png" alt="Print do Projeto"/>
 
 <!-- <h3 align="center">📽️project demonstration video</h3>
 <br>
@@ -171,7 +170,7 @@ https://github.com/emmanuelmarcosdeoliveira/animais-fantasticos/assets/116108389
 Acesse a versão on-line Projeto clicando no Link Abaixo
 <br>
 <br>
-<a href="https://tech-news-black.vercel.app/">
+<a href="https://pagina-de-receitas-one.vercel.app/">
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 
 </div>
@@ -189,7 +188,7 @@ Acesse a versão on-line Projeto clicando no Link Abaixo
 
 ## Contributors or owners
 
-<img height="64px" src="./src/assets/images/profile.png"><br>
+<img height="64px" src="./src/assets/github/profile.png"><br>
 <small>Emmanuel Oliveira</small>
 
 developed by 💖 [Emmanuel Oliveira](https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit)<br>
@@ -259,4 +258,4 @@ Isso criará uma cópia local do projeto, onde você poderá fazer suas modifica
 Released in 2024 This project is under the **MIT license**<br>
 <br>
 
-[`voltar ao topo`](#️-tech-news--ofs)
+[`voltar ao topo`](#-revenue--ofs)
